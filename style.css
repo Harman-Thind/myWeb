@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.galaxy {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.galaxy:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.galaxy h2 {
+    color: #333;
+}
+
+.galaxy img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.galaxy-hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
