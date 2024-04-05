@@ -9,7 +9,7 @@
 <body>
 
 <div class="container">
-    <h1>Galaxies</h1>
+    <h1>Our Galaxies</h1>
     <?php
     // Connect to the database
     $servername = "localhost";
